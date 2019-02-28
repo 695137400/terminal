@@ -1,0 +1,85 @@
+hotkeys:
+  shell: {}
+  copy:
+    - - Ctrl-C
+  paste:
+    - - Ctrl-V
+  settings: []
+  profile: {}
+terminal:
+  colorScheme:
+    name: Molokai
+    foreground: '#bbbbbb'
+    background: '#000000'
+    cursor: '#bbbbbb'
+    colors:
+      - '#121212'
+      - '#fa2573'
+      - '#98e123'
+      - '#dfd460'
+      - '#1080d0'
+      - '#8700ff'
+      - '#43a8d0'
+      - '#bbbbbb'
+      - '#555555'
+      - '#f6669d'
+      - '#b1e05f'
+      - '#fff26d'
+      - '#00afff'
+      - '#af87ff'
+      - '#51ceff'
+      - '#ffffff'
+  ligatures: false
+  background: theme
+  cursor: beam
+  environment: {}
+  shell: cmd
+  autoOpen: false
+  profiles: []
+appearance:
+  vibrancy: true
+  opacity: 0.88
+  theme: Standard
+  vibrancyType: blur
+qc:
+  cmds:
+    - name: 'redis设置密码'
+      text: '"D:/Program Files/redisbin_x64/redis-cli.exe" config set requirepass admin'
+      appendCR: true
+      group: 'win10 java web 开发命令'
+    - name: '启动 redis'
+      text: 'd: && cd D:/Program Files/redisbin_x64 && redis-server.exe'
+      appendCR: true
+      group: 'win10 java web 开发命令'
+    - name: '启动 memcached'
+      text: 'd: && cd D:/Program Files/memcached-1.2.1-win32 && memcached.exe'
+      appendCR: true
+      group: 'win10 java web 开发命令'
+    - name: '启动 nginx'
+      text: 'd: && cd D:/Program Files/nginx-1.7.1 && nginx.bat'
+      appendCR: true
+      group: 'win10 java web 开发命令'
+    - name: 'adb devices'
+      text: 'adb devices'
+      appendCR: true
+      group: 'win10 java web 开发命令'
+    - name: 'devtools_remote'
+      text: 'adb -s [devices] shell "cat /proc/net/unix |grep -a devtools_remote"'
+      appendCR: true
+      group: 'win10 java web 开发命令'
+    - name: 'open tcp'
+      text: 'adb -s [devices] forward tcp:9888 localabstract:'
+      appendCR: true
+      group: 'win10 java web 开发命令'
+    - name: 'curl '
+      text: 'curl http://localhost:9888/json'
+      appendCR: true
+      group: 'win10 java web 开发命令'
+ssh:
+  connections:
+    - name: 188.131.134.19
+      host: 188.131.134.19
+      port: 22
+      user: ubuntu
+      group: 网络
+enableAnalytics: true

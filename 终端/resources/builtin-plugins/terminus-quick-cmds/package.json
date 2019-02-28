@@ -1,0 +1,62 @@
+{
+  "_from": "terminus-quick-cmds@1.1.0",
+  "_id": "terminus-quick-cmds@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-lVvvTkoUQeLzuFemc9piLb0DS3IDzVqXgDjrhtLcxv4mZlH/E4lWvjod054h3rjtH0Ht/zWtN2HL1DyLn/xV0Q==",
+  "_location": "/terminus-quick-cmds",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "terminus-quick-cmds@1.1.0",
+    "name": "terminus-quick-cmds",
+    "escapedName": "terminus-quick-cmds",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/terminus-quick-cmds/-/terminus-quick-cmds-1.1.0.tgz",
+  "_shasum": "b1851700872ecd547e4a0d7179306d6ed7a35f6e",
+  "_spec": "terminus-quick-cmds@1.1.0",
+  "_where": "D:\\360安全浏览器下载\\app-64",
+  "author": {
+    "name": "Domain"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Quick commands manager for Terminus",
+  "devDependencies": {
+    "@types/webpack-env": "^1.13.0",
+    "electron": "^1.6.11",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "terminus-plugin",
+    "quick-commands"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "terminus-quick-cmds",
+  "peerDependencies": {
+    "@angular/common": "^4.1.3",
+    "@angular/core": "^4.1.3",
+    "@angular/forms": "^4.1.3",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.29",
+    "terminus-core": "*",
+    "terminus-settings": "*",
+    "terminus-terminal": "*"
+  },
+  "scripts": {
+    "build": "webpack --progress --color",
+    "watch": "webpack --progress --color --watch"
+  },
+  "typings": "dist/index.d.ts",
+  "version": "1.1.0"
+}

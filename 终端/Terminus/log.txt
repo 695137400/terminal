@@ -1,0 +1,30 @@
+2019-02-28T09:09:03.513Z - info: Window ID: 1
+2019-02-28T09:09:03.529Z - debug: scrollbar plugin starting up
+2019-02-28T09:09:03.914Z - info: v 99999.0.0-alpha.63
+2019-02-28T09:09:03.923Z - debug: Checking for updates
+2019-02-28T09:09:04.144Z - debug: Shells list: id=default, name=User default, command=C:\Windows\system32\wsl.exe, args=[-d, Ubuntu], fsBase=D:\ProgramFiles\rootfs, TERM=xterm-color, COLORTERM=truecolor, id=clink, name=CMD (clink), command=cmd.exe, args=[/k, D:\Program Files\终端\resources\extras\clink\clink_x64.exe, inject], id=cmd, name=CMD (stock), command=cmd.exe, id=powershell, name=PowerShell, command=powershell.exe, args=[-nologo], TERM=cygwin, id=custom, name=Custom shell, command=, args=[], id=git-bash, name=Git-Bash, command=C:\Program Files\Git\bin\bash.exe, args=[--login, -i], TERM=cygwin, id=wsl, name=WSL / Default distro, command=C:\Windows\system32\wsl.exe, TERM=xterm-color, COLORTERM=truecolor, id=wsl-Ubuntu, name=WSL / Ubuntu, command=C:\Windows\system32\wsl.exe, args=[-d, Ubuntu], fsBase=D:\ProgramFiles\rootfs, TERM=xterm-color, COLORTERM=truecolor
+2019-02-28T09:09:05.080Z - info: Update available: 1.0.71
+2019-02-28T09:09:18.150Z - debug: New terminal tab discovered id=0
+2019-02-28T09:09:27.821Z - debug: New terminal tab discovered id=1
+2019-02-28T09:11:45.864Z - info: Window ID: 1
+2019-02-28T09:11:45.874Z - debug: scrollbar plugin starting up
+2019-02-28T09:11:46.205Z - info: v 99999.0.0-alpha.63
+2019-02-28T09:11:46.211Z - debug: Checking for updates
+2019-02-28T09:11:46.824Z - debug: Shells list: id=default, name=User default, command=C:\Windows\system32\wsl.exe, args=[-d, Ubuntu], fsBase=D:\ProgramFiles\rootfs, TERM=xterm-color, COLORTERM=truecolor, id=clink, name=CMD (clink), command=cmd.exe, args=[/k, D:\Program Files\终端\resources\extras\clink\clink_x64.exe, inject], id=cmd, name=CMD (stock), command=cmd.exe, id=powershell, name=PowerShell, command=powershell.exe, args=[-nologo], TERM=cygwin, id=custom, name=Custom shell, command=, args=[], id=git-bash, name=Git-Bash, command=C:\Program Files\Git\bin\bash.exe, args=[--login, -i], TERM=cygwin, id=wsl, name=WSL / Default distro, command=C:\Windows\system32\wsl.exe, TERM=xterm-color, COLORTERM=truecolor, id=wsl-Ubuntu, name=WSL / Ubuntu, command=C:\Windows\system32\wsl.exe, args=[-d, Ubuntu], fsBase=D:\ProgramFiles\rootfs, TERM=xterm-color, COLORTERM=truecolor
+2019-02-28T09:11:47.345Z - debug: New terminal tab discovered id=0
+2019-02-28T09:11:47.435Z - info: Update available: 1.0.71
+2019-02-28T09:12:25.249Z - debug: Shells list: id=default, name=User default, command=C:\Windows\system32\wsl.exe, args=[-d, Ubuntu], fsBase=D:\ProgramFiles\rootfs, TERM=xterm-color, COLORTERM=truecolor, id=clink, name=CMD (clink), command=cmd.exe, args=[/k, D:\Program Files\终端\resources\extras\clink\clink_x64.exe, inject], id=cmd, name=CMD (stock), command=cmd.exe, id=powershell, name=PowerShell, command=powershell.exe, args=[-nologo], TERM=cygwin, id=custom, name=Custom shell, command=, args=[], id=git-bash, name=Git-Bash, command=C:\Program Files\Git\bin\bash.exe, args=[--login, -i], TERM=cygwin, id=wsl, name=WSL / Default distro, command=C:\Windows\system32\wsl.exe, TERM=xterm-color, COLORTERM=truecolor, id=wsl-Ubuntu, name=WSL / Ubuntu, command=C:\Windows\system32\wsl.exe, args=[-d, Ubuntu], fsBase=D:\ProgramFiles\rootfs, TERM=xterm-color, COLORTERM=truecolor
+2019-02-28T09:12:25.269Z - debug: Shells list: id=default, name=User default, command=C:\Windows\system32\wsl.exe, args=[-d, Ubuntu], fsBase=D:\ProgramFiles\rootfs, TERM=xterm-color, COLORTERM=truecolor, id=clink, name=CMD (clink), command=cmd.exe, args=[/k, D:\Program Files\终端\resources\extras\clink\clink_x64.exe, inject], id=cmd, name=CMD (stock), command=cmd.exe, id=powershell, name=PowerShell, command=powershell.exe, args=[-nologo], TERM=cygwin, id=custom, name=Custom shell, command=, args=[], id=git-bash, name=Git-Bash, command=C:\Program Files\Git\bin\bash.exe, args=[--login, -i], TERM=cygwin, id=wsl, name=WSL / Default distro, command=C:\Windows\system32\wsl.exe, TERM=xterm-color, COLORTERM=truecolor, id=wsl-Ubuntu, name=WSL / Ubuntu, command=C:\Windows\system32\wsl.exe, args=[-d, Ubuntu], fsBase=D:\ProgramFiles\rootfs, TERM=xterm-color, COLORTERM=truecolor
+2019-02-28T09:14:19.940Z - info: Window ID: 1
+2019-02-28T09:14:19.950Z - debug: scrollbar plugin starting up
+2019-02-28T09:14:20.291Z - info: v 99999.0.0-alpha.63
+2019-02-28T09:14:20.297Z - debug: Checking for updates
+2019-02-28T09:14:20.825Z - debug: Shells list: id=default, name=User default, command=C:\Windows\system32\wsl.exe, args=[-d, Ubuntu], fsBase=D:\ProgramFiles\rootfs, TERM=xterm-color, COLORTERM=truecolor, id=clink, name=CMD (clink), command=cmd.exe, args=[/k, D:\Program Files\终端\resources\extras\clink\clink_x64.exe, inject], id=cmd, name=CMD (stock), command=cmd.exe, id=powershell, name=PowerShell, command=powershell.exe, args=[-nologo], TERM=cygwin, id=custom, name=Custom shell, command=, args=[], id=git-bash, name=Git-Bash, command=C:\Program Files\Git\bin\bash.exe, args=[--login, -i], TERM=cygwin, id=wsl, name=WSL / Default distro, command=C:\Windows\system32\wsl.exe, TERM=xterm-color, COLORTERM=truecolor, id=wsl-Ubuntu, name=WSL / Ubuntu, command=C:\Windows\system32\wsl.exe, args=[-d, Ubuntu], fsBase=D:\ProgramFiles\rootfs, TERM=xterm-color, COLORTERM=truecolor
+2019-02-28T09:14:21.431Z - debug: New terminal tab discovered id=0
+2019-02-28T09:14:22.121Z - info: Update available: 1.0.71
+2019-02-28T09:14:28.460Z - debug: New terminal tab discovered id=0
+2019-02-28T09:14:28.460Z - debug: New terminal tab discovered id=1
+2019-02-28T09:14:46.067Z - debug: New terminal tab discovered id=0
+2019-02-28T09:14:46.067Z - debug: New terminal tab discovered id=2
+2019-02-28T09:14:54.406Z - debug: New terminal tab discovered id=0
+2019-02-28T09:14:57.876Z - debug: New terminal tab discovered id=0
