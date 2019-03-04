@@ -1,0 +1,33 @@
+import { HotkeysService } from 'terminus-core';
+import { ElectronService, DockingService, ConfigService, IHotkeyDescription, HotkeyProvider, BaseTabComponent, Theme, HostAppService, Platform, HomeBaseService, ShellIntegrationService } from 'terminus-core';
+import { SettingsTabProvider } from '../api';
+export declare class SettingsTabComponent extends BaseTabComponent {
+    config: ConfigService;
+    private electron;
+    docking: DockingService;
+    hostApp: HostAppService;
+    homeBase: HomeBaseService;
+    shellIntegration: ShellIntegrationService;
+    settingsProviders: SettingsTabProvider[];
+    themes: Theme[];
+    activeTab: string;
+    hotkeyFilter: string;
+    hotkeyDescriptions: IHotkeyDescription[];
+    screens: any[];
+    Platform: typeof Platform;
+    configDefaults: any;
+    configFile: string;
+    isShellIntegrationInstalled: boolean;
+    isFluentVibrancySupported: boolean;
+    private configSubscription;
+    constructor(config: ConfigService, electron: ElectronService, docking: DockingService, hostApp: HostAppService, homeBase: HomeBaseService, shellIntegration: ShellIntegrationService, hotkeys: HotkeysService, hotkeyProviders: HotkeyProvider[], settingsProviders: SettingsTabProvider[], themes: Theme[]);
+    ngOnInit(): Promise<void>;
+    getRecoveryToken(): any;
+    ngOnDestroy(): void;
+    restartApp(): void;
+    saveConfigFile(): void;
+    isConfigFileValid(): boolean;
+    installShellIntegration(): Promise<void>;
+    getHotkey(id: string): any;
+    setHotkey(id: string, value: any): void;
+}
